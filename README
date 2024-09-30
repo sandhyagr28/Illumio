@@ -1,0 +1,16 @@
+AnalyzeFlowLogs:
+
+1. Using sample logs provided in the assessment email
+2. Using sample lookup table provided in the assessment email
+3. Using IntelliJ IDEA IDE
+4. Assuming that logs are not corrupted.
+5. Using only rows that have action=ACCEPT
+6. Works only with flow logs version 2.
+
+The program takes 2 arguments - input file names
+    1. the absolute filename for the flow logs file
+    2. the absolute filename for the lookup table file.
+
+Generates 2 output files, both text files created
+    1. tagCounts.txt - contains list of Tag,Count
+    2. portProtocolCounts.txt - Port/Protocol Combination Counts
